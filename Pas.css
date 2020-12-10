@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-color: rgb(113, 113, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    padding: 50px;
+    margin: 15% auto;
+}
+form p{
+    text-align: center;
+    font-size: 34px;
+}
+input, button{
+    margin: 5px 0px;
+    height: 25px;
+}
+.Bg-Message{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.Message{
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.line{
+    border-bottom: 5px solid black;
+    transition: ease-in;
+}
+.Message p{
+    padding-top: 40px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Bg-Message1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.Message1{
+    width: 250px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.Message1 p{
+    font-size: 19px;
+    margin-top: 20px;
+    color: green;
+}
+.Bg-Message2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.Message2{
+    width: 400px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.Message2 p{
+    font-size: 19px;
+    margin-top: 20px;
+    color: red;
+}
+.close, .close1{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 25px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.Ok {
+    background-color: rgba(242, 169, 58, 1);
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 100px;
+    font-family: Swis721 Hv BT;
+}
+.Bottom-gr{
+    display: flex;
+    justify-content: center;
+}
